@@ -1,3 +1,5 @@
+package ARRAYS;
+
 public class Array1{
     public static void main(String[] args){
         int[] arr = new int[5]; //we can also initialize and declare {1,2,3,4,5}
