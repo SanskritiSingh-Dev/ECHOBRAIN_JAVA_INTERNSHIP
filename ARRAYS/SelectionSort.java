@@ -1,3 +1,6 @@
+//selection sort
+//time complexity is O(n^2) and space complexity is O(1)
+
 import java.util.Scanner;
 
 public class SelectionSort {
