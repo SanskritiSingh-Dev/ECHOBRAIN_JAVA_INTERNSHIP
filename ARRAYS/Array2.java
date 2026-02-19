@@ -1,4 +1,4 @@
-package ARRAYS;
+//package ARRAYS;
 //create an array of size 5 and store numbers.Print all elements
 import java.util.Scanner;
 public class Array2 {
