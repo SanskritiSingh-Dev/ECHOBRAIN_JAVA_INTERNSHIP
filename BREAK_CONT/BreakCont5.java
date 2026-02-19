@@ -21,7 +21,6 @@ public class BreakCont5 {
     //print number from 2 to 100,  skip non prime numbers using continue, stop when firsst prime preater than 50 is found
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        boolean foundPrime = false;
         System.out.println("Prime numbers from 2 to 100:");
         for(int i = 2; i <= 100; i++){
             if(i > 50 && isPrime(i)){
