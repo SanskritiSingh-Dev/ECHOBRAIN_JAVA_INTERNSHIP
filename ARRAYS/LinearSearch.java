@@ -1,3 +1,5 @@
+//linear search in an array
+//time complexity is O(n) and space complexity is O(1)
 import java.util.Scanner;
 
 public class LinearSearch {
