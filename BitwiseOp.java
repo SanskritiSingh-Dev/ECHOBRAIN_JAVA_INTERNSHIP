@@ -6,8 +6,9 @@ public class BitwiseOp {
         byte write = 2;
         byte exec = 4;
 
-        int permission = read | write; // 1 | 2 = 3
-        System.out.println("Permission: you can read and write");
+        int permission = read | write | exec; // 1 | 2 | 4 = 7
+        System.out.println("Permission: you can read, write and execute");
+        System.out.println("Permission value: " + permission);
     }
     
 }
