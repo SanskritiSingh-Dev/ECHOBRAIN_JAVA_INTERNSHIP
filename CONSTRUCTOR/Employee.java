@@ -14,16 +14,18 @@ public class Employee {
 
     //another constructor - if job is decideed but salary is not yet ..
     public Employee(String name, int empId, String job){
-        this.name = name;
-        this.empId = empId;
+        //this.name = name;
+        //this.empId = empId;
+        this(name, empId); //to access the repeated thing from above const
         this.job = job;
     }
 
     //local var as parameter in this constructor main const with all parameter
     Employee(String name, int empId, String job, double salary, long phno){
-        this.name = name;
-        this.empId = empId;
-        this.job = job;
+        //this.name = name;
+        //this.empId = empId;
+        //this.job = job;
+        this(name, empId, job); // this call is used
         this.salary = salary;
         this.phno = phno; // optional
     }
