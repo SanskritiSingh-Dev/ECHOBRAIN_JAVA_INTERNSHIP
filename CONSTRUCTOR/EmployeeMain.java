@@ -8,10 +8,15 @@ public class EmployeeMain {
         emp.display();
 
         System.out.println();
-        
+
         //user dont want to enter the phno so for this we have other const.
         Employee emp2 = new Employee("Zimbha", 1002); 
         emp2.display();
+
+        System.out.println();
+
+        Employee emp3 = new Employee("jaljal", 1003, "SDE"); 
+        emp3.display();
     }
     
 }

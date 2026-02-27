@@ -12,10 +12,13 @@ public class Employee {
         this.empId = empId;
     }
 
-    //default constructor
-    public Employee(){
-
+    //another constructor - if job is decideed but salary is not yet ..
+    public Employee(String name, int empId, String job){
+        this.name = name;
+        this.empId = empId;
+        this.job = job;
     }
+
     //local var as parameter in this constructor main const with all parameter
     Employee(String name, int empId, String job, double salary, long phno){
         this.name = name;
