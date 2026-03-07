@@ -81,3 +81,43 @@ public class Hospital {
         cw.cowCheckup();
     }
 }
+//using instanceof : instanceof is used to check the actual object type before performing downcasting. It helps prevent ClassCastException by ensuring that the object belongs to the target class.
+
+/*class Animal {
+
+    void treatment() {
+        System.out.println("Animal is getting treatment");
+    }
+}
+
+class Dog extends Animal {
+
+    void bark() {
+        System.out.println("Dog is barking");
+    }
+}
+
+class Cat extends Animal {
+
+    void meow() {
+        System.out.println("Cat is meowing");
+    }
+}
+
+public class Hospital {
+
+    public static void main(String[] args) {
+
+        Animal a = new Dog();   // Upcasting
+
+        a.treatment();
+
+        // Using instanceof before downcasting
+        if(a instanceof Dog) {
+
+            Dog d = (Dog) a;   // Downcasting
+            d.bark();
+
+        }
+    }
+} */
