@@ -6,7 +6,7 @@ public class LoweToUpper {
          //convert lowercase char to upper case char by using only if else statement and asci values
         //difference between lowercase and uppercase char is 32 in ascii values. so we can use that to convert lowercase char to uppercase char.
         System.out.println("enter a lowercase character: ");
-        char lowercase = sc.next();
+        char lowercase = sc.next().charAt(0);
         if(lowercase >= 'a' && lowercase <= 'z'){
             char uppercase = (char)(lowercase - 32);
             System.out.println("The uppercase character is: " + uppercase);
@@ -19,9 +19,9 @@ public class LoweToUpper {
 
         //convert lowercase char to uppercase char by using if else statement
         System.out.println("enter a lowercase character: ");
-        char lowercase = sc.next().charAt(0);
-        if(lowercase >= 'a' && lowercase <= 'z'){
-            char uppercase = (char)(lowercase - 'a' + 'A');
+        char lowercase1 = sc.next().charAt(0);
+        if(lowercase1 >= 'a' && lowercase1 <= 'z'){
+            char uppercase = (char)(lowercase1 - 'a' + 'A');
             System.out.println("The uppercase character is: " + uppercase);
         }
         else{
@@ -41,7 +41,7 @@ public class LoweToUpper {
         System.out.println("-----------------------------------------------");
         //write a program to check if the number is vowel or not
         System.out.println("enter a character: ");
-        char ch = sc.next();
+        char ch = sc.next().charAt(0);
         if(ch == 'a'|| ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'){
             System.out.println("The character is a vowel.");
         }

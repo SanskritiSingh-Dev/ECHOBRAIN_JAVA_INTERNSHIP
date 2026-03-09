@@ -52,7 +52,7 @@ public class ConditionSt{
         //print a message if the number is a 3 digit number
         System.out.println("enter the number:");
         int Number = sc. nextInt();
-        if(Number >=100 && Number <==999){
+        if(Number >=100 && Number <=999){
             System.out.println("the number is a 3 digit number");
         }
         else{
@@ -63,13 +63,13 @@ public class ConditionSt{
 
         //write a program to check if the given char is digit or not
         System.out.println("enter the character:");
-        char character1 = sc.next();
-        if(character1 >= '0' && character1 <= '9'){
+        String character1 = sc.next();
+        if(character1.charAt(0) >= '0' && character1.charAt(0) <= '9'){
             System.out.println("the character is a digit");
         }
         else{
             System.out.println("the character is not a digit");
         }
+        sc.close();
     }
-    sc.close();
 }

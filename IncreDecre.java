@@ -5,8 +5,10 @@ public class IncreDecre {
         int res1 = a++ * --b +5 + --a - ++b + ++a;
         int res2 = a-- - --b + --a - b++ - a++;
         int res3 = a += b++;
-        int res4 = ++a *= 2;//not possible because ++a + a*2 is not possible.
-        int res5 = a*=2 + b*=3 + --a + b++; //not possible
+        int res4 = (++a) * 2;//increment a first, then multiply by 2
+        a *= 2;
+        b *= 3;
+        int res5 = a + b + --a + b++; //separated compound assignments
         System.out.println(a);
         System.out.println(b);
         //System.out.println(res1);
