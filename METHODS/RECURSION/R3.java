@@ -1,4 +1,4 @@
-//package RECURSION;
+package RECURSION;
 //sum fo all numbers
 public class R3 {
     static int m1(int a){

@@ -1,4 +1,4 @@
-//package RECURSION;
+package RECURSION;
 
 public class R2 {
     static void m1(int a){
