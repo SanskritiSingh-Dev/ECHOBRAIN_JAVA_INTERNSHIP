@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class DivBy3 {
     public static void main(String[] args) {
         int count = 0;
