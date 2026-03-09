@@ -1,6 +1,5 @@
 //create a jagged arrat with 3 row  having izes 2,3,4. print all elemnts
-//package arrays2D3D;
-import java.util.Arrays;
+package arrays2D3D;
 import java.util.Scanner;
 public class problem3 {
     public static void main(String[] args) {

@@ -1,6 +1,5 @@
-//package arrays2D3D;
+package arrays2D3D;
 //initilize a jagged array using direct values and display it.
-import java.util.Arrays;
 public class problem4 {
     public static void main(String[] args) {
         //jagged array

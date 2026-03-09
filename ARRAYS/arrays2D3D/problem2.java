@@ -1,4 +1,4 @@
-//package arrays2D3D;
+package arrays2D3D;
 import java.util.Scanner;
 public class problem2 {
     public static void main(String[] args) {

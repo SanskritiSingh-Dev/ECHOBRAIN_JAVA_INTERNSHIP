@@ -1,5 +1,5 @@
 //print jagged array in reverse row order only
-//package arrays2D3D;
+package arrays2D3D;
 
 import java.util.Scanner;
 
