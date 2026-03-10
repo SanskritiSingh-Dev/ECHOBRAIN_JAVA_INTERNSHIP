@@ -30,3 +30,25 @@ public class OverRiding {
 /*Method overriding occurs when a child class provides its own implementation of a method that already exists in the parent class. It is used to achieve runtime polymorphism in Java.
 A method cannot be overridden if it is declared as final, static, or private, because final methods cannot be modified, static methods belong to the class, and private methods are not inherited.
 */
+
+/*
+overhiding
+
+class Animal {
+    static void sound() {
+        System.out.println("Animal sound");
+    }
+}
+
+class Dog extends Animal {
+    static void sound() {   // method hiding
+        System.out.println("Dog sound");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Animal a = new Dog();
+        a.sound();
+    }
+} */
