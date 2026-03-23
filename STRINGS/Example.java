@@ -1,4 +1,4 @@
-package STRING;
+package STRINGS;
 
 public class Example {
     public static void main(String[] args) {

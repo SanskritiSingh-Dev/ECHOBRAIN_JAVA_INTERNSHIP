@@ -1,5 +1,5 @@
 //Convert String to char array without using predefined method
-package STRING;
+package STRINGS;
 
 public class StringToCharArr {
     public static void main(String[] args) {
