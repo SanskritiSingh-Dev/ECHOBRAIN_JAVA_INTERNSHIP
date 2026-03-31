@@ -1,0 +1,5 @@
+Hello PrintWriter!
+This is second line.
+100
+45.67
+true
