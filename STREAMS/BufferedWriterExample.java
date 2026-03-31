@@ -6,7 +6,7 @@ public class BufferedWriterExample {
 
     public static void main(String[] args) {
         // Wrap FileWriter with BufferedWriter
-        try(BufferedWriter bw = new BufferedWriter(new FileWriter("charBuffer.txt"))){
+        try(BufferedWriter bw = new BufferedWriter(new FileWriter("charBuffer.txt", true))){
 
             // Write text
             bw.write("Hello Buffered Writer!");
