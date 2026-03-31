@@ -1,0 +1,3 @@
+Hello Buffered Writer!
+This is second line.
+Fast writing using buffer.
