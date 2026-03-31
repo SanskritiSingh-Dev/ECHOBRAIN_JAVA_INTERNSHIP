@@ -2,7 +2,7 @@ import java.io.Serializable;
 //student class must implement Serializable
 
 public class Student implements Serializable {
-    private int id;
+    int id;
     private String name;
 
     //constructor
