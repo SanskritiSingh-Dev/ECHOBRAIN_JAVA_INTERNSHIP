@@ -37,6 +37,11 @@ public class VectorEg {
         System.out.println("Does vector contain all elements of v2? " + v.containsAll(v2));
         v2.add(30);
         System.out.println("Does vector contain all elements of v2? " + v.containsAll(v2));
+
+        //trimeToSize method
+        v.trimToSize();
+        System.out.println("Trimmed Vector: " + v);
+        System.out.println("Capacity of trimmed vector: " + v.capacity());
         
         
 
