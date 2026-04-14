@@ -1,4 +1,4 @@
-package STREAMS;
+package IOSTREAMS;
 
 import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;
