@@ -1,0 +1,16 @@
+{
+    "python-envs.pythonProjects": [
+        {
+            "path": "lib",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ],
+    "java.project.sourcePaths": [
+        "lib",
+        "JDBC"
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Users\\HP\\Desktop\\ECHOBRAIN\\JAVA\\lib\\mysql-connector-j-9.6.0.jar"
+    ]
+}
